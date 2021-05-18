@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "build": "next build && next export",
+    "start": "next start",
+    "cleanup:module": "rm -rf ./node_modules"
   },
   "dependencies": {
     "next": "10.2.0",
