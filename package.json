@@ -1,7 +1,8 @@
 {
   "name": "shopage-client",
   "version": "0.1.0",
-  "private": true,
+  "description": "nextjs",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
